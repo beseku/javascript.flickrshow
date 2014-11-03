@@ -63,7 +63,7 @@ flickrshow = function(target, settings) {
 		} else {
 			parameters.method = 'flickr.photos.getRecent';
 		}
-		url = 'http://api.flickr.com/services/rest/?';
+		url = 'https://api.flickr.com/services/rest/?';
 		for (key in parameters) {
 			if (!__hasProp.call(parameters, key)) continue;
 			value = parameters[key];
